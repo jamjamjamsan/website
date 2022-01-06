@@ -1,0 +1,38 @@
+.page-mv {
+  background: url(../img/mv.png) center / cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+}
+.blog {
+  margin: 40px auto;
+}
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.blog-item {
+  width: 30%;
+  margin-right: calc((100% - (30% * 3)) / 2);
+  margin-top: 20px;
+}
+.blog-item a {
+  color: black;
+  text-decoration: none;
+}
+.blog-item:nth-child(3n) {
+  margin-right: 0;
+}
+.blog-item-ttl {
+  font-size: 20px;
+}
+@media screen and (max-width: 768px) {
+  .blog-item{
+    width: 100%;
+    margin-right: 0;
+  }
+  
+}

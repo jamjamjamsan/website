@@ -1,0 +1,32 @@
+.page-mv {
+  background: url(../img/mv.png) center / cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  align-items: center;
+}
+.wrap-s {
+  width: 80%;
+  margin: 40px auto;
+}
+.company-info {
+  width: 100%;
+  border-bottom: 1px solid black;
+  
+}
+tr {
+  border-bottom: 1px solid black;
+  
+}
+.company-info-name,
+.company-info-data {
+  padding: 20px 0;
+  border-top: 1px solid black;
+}
+.company-info-name {
+  width: 30%;
+}
+.company-info-data {
+  width: 70%;
+}
